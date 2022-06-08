@@ -1,14 +1,16 @@
 "use strict"
 
-var nombre = 'Gabriel';
+"use strict"
 
-console.log(nombre);
+var y = 5;
+var texto = "";
 
-function saludo() {
-    let nombre = 'Susana'
-    console.log(nombre);
-    let edad = 58
-    console.log(edad)
-}
-
-saludo();
+do{
+    for (let x = 0; x < y; x++) {
+        texto = texto + "*";
+    }
+    console.log(texto)
+    texto = "";
+    y--;
+} 
+while (y>0);
